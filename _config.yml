@@ -23,7 +23,7 @@ kramdown:
   enable_coderay:   false
 sass:
   sass_dir:         assets/_sass
-  style:            compressed
+  style:            nested
 
 # Google Analytics
 #google-analytics: UA-XXXXX-Y
