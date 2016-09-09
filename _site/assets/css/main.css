@@ -722,14 +722,15 @@ canvas {
   width: 100%;
   margin: 0 auto; }
   .main-info h1,
-  .about-info h1 {
-    text-transform: none; }
   .main-info h2,
+  .about-info h1,
   .about-info h2 {
     font-size: 30px;
     position: relative;
     margin-top: 0; }
+    .main-info h1:after,
     .main-info h2:after,
+    .about-info h1:after,
     .about-info h2:after {
       content: "";
       width: 100px;
