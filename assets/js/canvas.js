@@ -11,7 +11,7 @@ $(function() {
 
   var canvas = document.querySelector('canvas'),
     context = canvas.getContext('2d'),
-    color = '#98B232',
+    color = '#72cc96',
     count = 250,
     flakes = [];
 
