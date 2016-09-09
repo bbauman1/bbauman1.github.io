@@ -1,11 +1,11 @@
 - title: Intern Supply
   url: http://www.intern.supply
-  image: https://raw.githubusercontent.com/bbauman1/brettbauman/master/images/intern-supply.png
+  image: https://raw.githubusercontent.com/bbauman1/bbauman1.github.io/master/images/intern-supply.png
   completed: true
 
 - title: PokeSource - Pokemon GO Map
   url: https://play.google.com/store/apps/details?id=com.bbauman.pokeSourceAndroid
-  image: https://raw.githubusercontent.com/bbauman1/brettbauman/master/images/pokesource.png
+  image: https://raw.githubusercontent.com/bbauman1/bbauman1.github.io/master/images/pokesource.png
   completed: true
 
 - title: Who Dat?!
@@ -17,4 +17,3 @@
   url: https://github.com/TaylanTatli/Block-Icon-Theme
   image: https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png
   completed: false
-
