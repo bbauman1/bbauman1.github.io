@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Brett Bauman</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link type="image/x-icon" rel="icon" href="images/favicon.ico">
+	</head>
+	<body onload="load()">		
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper featured style1">
+						<div class="inner">
+							<!-- <span class="image">
+								<img src="images/pic01.jpg" alt="" />
+							</span> -->
+							<div class="content">
+								<header>
+									<h1>Brett Bauman</h1>
+									<p>I'm a Computer Science student. <br />
+									I do Computer Science stuff. <br />
+									Check it out below - Let me know if you think anything is cool.</p>
+								</header>								
+							</div>
+						</div>
+					</section>
+
+			
+				<!-- Two -->
+					<section class="wrapper style1 special">
+						<div class="inner">
+							<header>
+								<h2>My Work</h2>
+								<p>These are some of my passion projects.<br />
+								 Most are made to solve a problem I faced in real life.</p>
+							</header>
+							<section class="spotlight">
+								<span class="image"><img src="images/internsupply.png" alt="" /></span>
+								<div class="content">
+									<header>
+										<h3>Intern Supply</h3>
+									</header>
+									<p>Known and used by Computer Science students around the world, Intern Supply is the easiest way for students to apply to 
+									Software Engineering internships. Since it's debut in late 2016, it has sent over 300,000 applicants to company websites.</p>
+									<footer>
+										<ul class="actions">
+											<li><a href="#" class="button special">Details</a></li>
+										</ul>
+									</footer>
+								</div>
+							</section>
+							<section class="spotlight">
+								<span class="image"><img src="images/pokesource.jpg" alt="" /></span>
+								<div class="content">
+									<header>
+										<h3>PokéSource</h3>
+									</header>
+									<p>PokéSource is a mobile application for crowd sourcing Pokémon locations in Pokémon GO. With over 10,000 downloads, thousands of locations have been marked across multiple continents. Available on iOS and Android.</p>
+									<footer>
+										<ul class="actions">
+											<li><a href="#" class="button special">Details</a></li>
+										</ul>
+									</footer>
+								</div>
+							</section>
+							<section class="spotlight">
+								<span class="image"><img src="images/curatedcoffee.jpg" alt="" /></span>
+								<div class="content">
+									<header>
+										<h3>Curated Coffee</h3>
+									</header>
+									<p>Curated Coffee helps local coffee shops become discovered by allowing the user to blacklist big names like Starbucks. Then, the nearest coffee shops are displayed in a beatiful way.</p>
+									<footer>
+										<ul class="actions">
+											<li><a href="#" class="button special disabled">Coming Soon</a></li>
+										</ul>
+									</footer>
+								</div>
+							</section>
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos malesuada fames ac turpis egestas. In non lorem amet. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique eu nibh.</p>
+							<footer>
+								<ul class="actions">
+									<li><a href="#" class="button">Details</a></li>
+								</ul>
+							</footer> -->
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section class="wrapper style3 special">
+						<div class="inner">
+							<header>
+								<h2>Where I Work</h2>
+								<p>Summer 2017 - Amazon Software Engineering Intern.<br/>
+								Summer 2016 - General Motors Software Engineering Intern.<br/></p>
+							</header>							
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<section id="footer" class="wrapper split style2">
+						<div class="inner">
+							<section>
+								<header>
+									<h3>Get in Touch</h3>
+								</header>
+								<p>I'm always looking for new things to work on and new people to talk to. Let's chat.</p>
+								<ul class="icons">
+									<li><a href="https://soundcloud.com/bbauman1" class="icon fa-soundcloud"><span class="label">SoundCloud</span></a></li>
+									<li><a href="https://www.snapchat.com/add/brettb123" class="icon fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+									<li><a href="https://www.linkedin.com/in/brett-bauman" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/bbauman1" class="icon fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+							<section>
+								<form>
+									<div class="field half first"><input id="nameField" type="text" name="name" id="name" placeholder="Name" value="" /></div>
+									<div class="field half"><input id="emailField" type="email" name="email" id="email" placeholder="Email" value="" /></div>
+									<div class="field"><textarea id="messageField" name="message" id="message" placeholder="Message" rows="4" value=""></textarea></div>
+									<ul class="actions">
+										<li><button type="button" class="" onclick="sendMessage()">Send Message</button></li>					
+									</ul>
+								</form>
+							</section>
+						</div>
+						<div class="copyright">
+							<p>&copy; Brett Bauman. All rights reserved.</p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+
+			<script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>
+			<script>
+			  // Initialize Firebase
+			  var config = {
+			    apiKey: "AIzaSyBPp5j9RnAVjF_CQcl3QXlXEDPOnxZ31iw",
+			    authDomain: "personalwebsite-7067c.firebaseapp.com",
+			    databaseURL: "https://personalwebsite-7067c.firebaseio.com",
+			    storageBucket: "personalwebsite-7067c.appspot.com",
+			    messagingSenderId: "595123429736"
+			  };
+			  firebase.initializeApp(config);
+			</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+			<script>
+				function load() {
+					firebase.auth().signInAnonymously().catch(function(error) {});	
+				}
+
+				function sendMessage() {
+					var nameEl = document.getElementById('nameField');
+					var emailEl = document.getElementById('emailField');
+					var messageEl = document.getElementById('messageField');
+
+					var nameVal = nameEl.value;
+					var emailVal = emailEl.value;
+					var messageVal = messageEl.value;
+
+					nameEl.value = "";
+					emailEl.value = "";
+					messageEl.value = "";
+
+					var newMessageKey = firebase.database().ref().push().key;
+					var message = {};
+					message['/' + newMessageKey + '/name'] = nameVal;
+					message['/' + newMessageKey + '/email'] = emailVal;
+					message['/' + newMessageKey + '/message'] = messageVal;
+					firebase.database().ref().update(message);
+				}				
+			</script>
+
+
+	</body>
+</html>
