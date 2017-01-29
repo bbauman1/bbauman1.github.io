@@ -3120,6 +3120,7 @@
 
 		.wrapper.featured {
 			text-align: center;
+			margin: 50px;
 		}
 
 			.wrapper.featured > .inner {
