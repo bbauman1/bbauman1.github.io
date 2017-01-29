@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Brett Bauman</title>
-		<meta name="description" content="Brett Bauman studies Computer Science at Arizona State University." />
+		<title>PokéSource | Brett Bauman</title>
+		<meta name="description" content="Mobile app for mapping Pokémon locations in Pokémon GO." />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -11,97 +11,26 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link type="image/x-icon" rel="icon" href="images/favicon.ico">
 	</head>
-	<body onload="load()">		
-
+	<body>
+		
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper featured style1">
+				<!-- Main -->
+					<section id="main" class="wrapper style1">
 						<div class="inner">
-							<!-- <span class="image">
-								<img src="images/pic01.jpg" alt="" />
-							</span> -->
-							<div class="content">
-								<header>
-									<h1>Brett Bauman</h1>
-									<p>I'm a Computer Science student. <br />
-									I do Computer Science stuff. <br />
-									Check it out below - Let me know if you think anything is cool.</p>
-								</header>								
-							</div>
-						</div>
-					</section>
-
-			
-				<!-- Two -->
-					<section class="wrapper style1 special">
-						<div class="inner">
-							<header>
-								<h2>My Work</h2>
-								<p>These are some of my passion projects.<br />
-								 Most are made to solve a problem I faced in real life.</p>
+							<header class="major">
+								<h1>PokéSource</h1>
+								<p>Mapping the most popular app of all time</p>
+								<span style="margin-right: 12px;" class="left"><a href="https://play.google.com/store/apps/details?id=com.bbauman.pokeSourceAndroid" class="button">Get it on Android</a></span>
+								<span style="margin-left: 12px;" class="right"><a href="https://itunes.apple.com/us/app/pokesource-for-pokemon-go/id1137444736?mt=8" class="button">Get it on iPhone</a></span>
 							</header>
-							<section class="spotlight">
-								<span class="image"><img src="images/internsupply.png" alt="" /></span>
-								<div class="content">
-									<header>
-										<h3>Intern Supply</h3>
-									</header>
-									<p>Known and used by Computer Science students around the world, Intern Supply is the easiest way for students to apply to 
-									Software Engineering internships. Since it's debut in late 2016, it has sent over 300,000 applicants to company websites.</p>
-									<footer>
-										<ul class="actions">
-											<li><a href="#" class="button special">Details</a></li>
-										</ul>
-									</footer>
-								</div>
-							</section>
-							<section class="spotlight">
-								<span class="image"><img src="images/pokesource.jpg" alt="" /></span>
-								<div class="content">
-									<header>
-										<h3>PokéSource</h3>
-									</header>
-									<p>PokéSource is a mobile application for crowd sourcing Pokémon locations in Pokémon GO. With over 10,000 downloads, thousands of locations have been marked across multiple continents. Available on iOS and Android.</p>
-									<footer>
-										<ul class="actions">
-											<li><a href="pokesource.html" class="button special">Details</a></li>
-										</ul>
-									</footer>
-								</div>
-							</section>
-							<section class="spotlight">
-								<span class="image"><img src="images/curatedcoffee.jpg" alt="" /></span>
-								<div class="content">
-									<header>
-										<h3>Curated Coffee</h3>
-									</header>
-									<p>Curated Coffee helps local coffee shops become discovered by allowing the user to blacklist big names like Starbucks. Then, the nearest coffee shops are displayed in a beatiful way.</p>
-									<footer>
-										<ul class="actions">
-											<li><a href="#" class="button special disabled">Coming Soon</a></li>
-										</ul>
-									</footer>
-								</div>
-							</section>
-							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos malesuada fames ac turpis egestas. In non lorem amet. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique eu nibh.</p>
-							<footer>
-								<ul class="actions">
-									<li><a href="#" class="button">Details</a></li>
-								</ul>
-							</footer> -->
-						</div>
-					</section>
-
-				<!-- Three -->
-					<section class="wrapper style3 special">
-						<div class="inner">
-							<header>
-								<h2>Where I Work</h2>
-								<p>Summer 2017 - Amazon Software Engineering Intern. <br />
-								Summer 2016 - General Motors Software Engineering Intern.</p>
-							</header>							
+							<span class="image left"><img src="images/pins-on-map.webp" alt="" /></span>
+							<span class="image left"><img src="images/rating-view.webp" alt="" /></span>
+							<p>PokéSource was released a couple weeks after Pokémon GO came out. I wrote all of the code for the Android app and my friend <a href="http://cameron.cool/">Cameron</a> wrote the iOS app. We weren't sure how this type of app would be received. Pokémon GO was everywhere, on every phone, but we were releasing an app that was initially useless. Early adopters would be given an empty map without Pokémon locations on it. And yet our app's success was up to them. If they didn't begin to place locations, then nobody would. It started off slow, but grew at what seemed to be an exponential rate. Soon we had 1,000 locations marked, then 2,000, then 5,000.</p>
+							<p>As the hype for Pokémon GO has slowed, so has PokéSource's downloads. On average, 40 people download the Android app per day and basically nobody downloads the iOS version. We aren't bothered by this, our Pokémon craze has died as well so we aren't surprised. We didn't advertise the app anywhere, just let the insane popularity of Pokémon GO do it's thing. This carried us to over 10,000 downloads between the two apps.</p>
+							<h3>How We Made it</h3>
+							<p>We used standard Android and iOS development tools (Android Studio/Java, XCode/Swift) and Firebase as our backend. Firebase is something I'd used before and have continued to use since making this app. I can't stress enough how quick and easy it is to do so much magic with Firebase. To this day we haven't been charged a penny and development was a breeze.</p>
 						</div>
 					</section>
 
@@ -139,7 +68,6 @@
 			</div>
 
 		<!-- Scripts -->
-
 			<script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>
 			<script>
 			  // Initialize Firebase
@@ -184,7 +112,6 @@
 					firebase.database().ref().update(message);
 				}				
 			</script>
-
 
 	</body>
 </html>
