@@ -25,11 +25,11 @@
 							<div class="content">
 								<header>
 									<h1><strong>Brett Bauman</strong></h1>
-									<p class="light-text">I co-created and run <a target="_blank" href="http://www.intern.supply/">Intern Supply</a>, a website that sent <span style=color:#252525;>over 300,000 applicants</span> <br /> to internship applications in the Fall 2016 recruiting season.<br />
+									<p class="light-text">I co-created and run <a target="_blank" href="http://www.intern.supply/">Intern Supply</a>, a website that sent <span style=color:#252525;>over 400,000 applicants</span> <br /> to internship applications in the Fall 2016 recruiting season.<br />
 									This summer I'm <span style=color:#252525;>interning at Amazon</span> in Seattle before returning to ASU <br />
 									for the final year of my <span style=color:#252525;>Computer Science</span> degree.</p>
 									<ul class="actions">
-										<a href="#work" class="button special scrolly">Portfolio</a>
+										<a class="button special" id="portfolio">Portfolio</a>
 									</ul>
 								</header>
 							</div>
@@ -52,7 +52,7 @@
 										<h3>Intern Supply</h3>
 									</header>
 									<p>Known and used by Computer Science students around the world, Intern Supply is the easiest way for students to apply to
-									Software Engineering internships. Since it's debut in late 2016, it has sent over 300,000 applicants to company websites.</p>
+									Software Engineering internships. Since it's debut in late 2016, it has sent over 400,000 applicants to company websites.</p>
 									<footer>
 										<ul class="actions">
 											<li><a href="http://www.intern.supply/" class="button special">Details</a></li>
@@ -66,7 +66,7 @@
 									<header>
 										<h3>PokéSource</h3>
 									</header>
-									<p>PokéSource is a mobile application for crowd sourcing Pokémon locations in Pokémon GO. With over 10,000 downloads, thousands of locations have been marked across multiple continents. Available on iOS and Android.</p>
+									<p>PokéSource is a mobile application for crowd sourcing Pokémon locations in Pokémon GO. With over 14,000 downloads, thousands of locations have been marked across multiple continents. Available on iOS and Android.</p>
 									<footer>
 										<ul class="actions">
 											<li><a href="pokesource.html" class="button special">Details</a></li>
@@ -147,6 +147,14 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				$("#portfolio").click(function() {
+				    $('html,body').animate({
+				        scrollTop: $("#work").offset().top},
+				        'slow');
+				});
+			</script>
 
 	</body>
 </html>
